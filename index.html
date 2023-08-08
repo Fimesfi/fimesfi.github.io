@@ -1,1 +1,166 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fimes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/symbol_fblack.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <script src="js/scrolling-text.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="brand">
+                <img src="/assets/fimes-logo.svg" alt="Fimes Logo">
+            </div>
+            <ul class="links">
+                <li><a href="#" class="active">etusivu</a></li>
+                <li><a href="#">referenssit</a></li>
+                <li><a href="#">palvelut</a></li>
+                <li><a href="#">ota yhteyttä</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img id="circles" src="/assets/hero-topleft-circles.svg" alt="Fimes circles"></div>
+        <img id="circles-bottom" src="/assets/hero-bottomright-circles.svg" alt="Fimes circles"></div>
+        <div class="top">
+            <div class="left">
+                <div class="hello-text">
+                    Hei, me olemme <img src="/assets/fimes-logo.svg" alt="Hei, me olemme Fimes">
+                </div>
+                <h1>Läpinäkyvä<br>kumppanisi.</h1>
+                <p>Nuorekas digimarkkinointitoimisto Etelä-Karjalasta, jota pyörittää pieni tiimi palkittuja ammattilaisia. </p>
+                <a class="primary__btn">Tutustu palveluihimme</a>
+            </div>
+            <div class="right">
+                <img src="/assets/hero.svg" alt="Läpinäkyvä kumppanisi">
+            </div>
+        </div>
+        <ul class="services">
+            <li>Verkkosivut</li>
+            <li class="circle"></li>
+            <li>Sosiaalinen media</li>
+            <li class="circle"></li>
+            <li>Webhotellit</li>
+            <li class="circle"></li>
+            <li>Ilmakuvaus</li>
+            <li class="circle"></li>
+            <li>Hakukoneoptimointi</li>
+            <li class="circle"></li>
+            <li>Verkkokaupat</li>
+        </ul>
+    </section>
+    
+    <section class="values">
+        <img id="circles" src="/assets/values-topleft-circles.svg" alt="Fimes circles"></div>
+        <div class="card">
+            <img src="/assets/lapinakyvasti.svg" alt="Läpinäkyvästi">
+            <h4>Läpinäkyvästi</h4>
+            <p>Olemme ylpeitä avoimuudestamme ja selkeydestämme. Asiakkaamme voivat luottaapalveluidemme vastaavan tarpeitaan.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/edullisesti.svg" alt="Läpinäkyvästi">
+            <h4>Edullisesti</h4>
+            <p>Tarjoamme kilpailukykyiset hinnat laadukkaista tuotteista ja palveluista.</p>
+        </div>
+        <div class="card">
+            <img src="/assets/luotettavasti.svg" alt="Läpinäkyvästi">
+            <h4>Luotettavasti</h4>
+            <p>Olemme sitoutuneita tarjoamaan asiakkaillemme luotettavia ja kestäviä ratkaisuja.</p>
+        </div>
+    </section>
+
+    <section class="wehandle">
+        <img id="circles" src="/assets/wehandle-section-circles.svg" alt="Fimes circles"></div>
+        <div class="context">
+            <h2>Me<br>hoidamme.</h2>
+            <a href="#" class="arrow">Katso kaikki</a>
+        </div>
+        <div class="content">
+            <div class="row">
+                <div class="card">
+                    <h5>Verkkopalvelut</h5>
+                    <ul>
+                        <li>Verkkosivut</li>
+                        <li>Verkkokaupat</li>
+                        <li>Webhotellit</li>
+                        <li>Ylläpito</li>
+                        <li>Hakukoneoptimointi SEO</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5>Brändit</h5>
+                    <ul>
+                        <li>Logot ja brändimateriaalit</li>
+                        <li>Brändimanuaalit</li>
+                        <li>Värisuunnittelu</li>
+                        <li>Brändistrategia</li>
+                        <li>Mainokset</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="card">
+                    <h5>Media</h5>
+                    <ul>
+                        <li>Sosiaalinen media</li>
+                        <li>Ilmakuvaus</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5>Puuttuuko jotakin?</h5>
+                    <ul>
+                        <li>Ota yhteyttä, niin katsotaan mitä saammekaan aikaiseksi.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ourclients">
+        <h3>Asiakkaitamme.</h3>
+        <p>Tässä muutamia hienoja asiakkaitamme, jotka luottavat meihin. Luota sinäkin ja ota yhteyttä!</p>
+        <div class="clients">
+            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
+            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
+            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
+            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
+        </div>
+    </section>
+    <section class="contact">
+        <div class="container">
+            <div class="context">
+                <h4>Aloitetaan yhteinen<br>
+                matkamme.</h4>
+                <p>Laske hinta-arvio palveluillesi, joita tarvitset ja pyydä tarjous.</p>
+                <a href="#" class="primary__btn">Hintalaskuriin</a>
+            </div>
+            <p class="divider">Tai</p>
+            <div class="contact__form">
+                <h5>Ota suoraan yhteyttä!</h5>
+                <form action="">
+                    <div class="row">
+                        <div class="col-50">
+                            <input type="text" name="name" id="name" placeholder="Nimi">
+                        </div>
+                        <div class="col-50">
+                            <input type="tel" name="phone" id="name" placeholder="Puhelinnumero">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="email" name="email" id="email" placeholder="Sähköposti">
+                    </div>
+                    <div class="row">
+                        <textarea name="message" id="message" placeholder="Viesti"></textarea>
+                    </div>
+                    <div class="row">
+                        <button>Lähetä</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
