@@ -3,164 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fimes</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="/assets/symbol_fblack.svg">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    <script src="js/scrolling-text.js"></script>
+    <title>The Next Generation Web Game Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.svg">
 </head>
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="brand">
-                <img src="/assets/fimes-logo.svg" alt="Fimes Logo">
-            </div>
-            <ul class="links">
-                <li><a href="#" class="active">etusivu</a></li>
-                <li><a href="#">referenssit</a></li>
-                <li><a href="#">palvelut</a></li>
-                <li><a href="#">ota yhteyttä</a></li>
-            </ul>
-        </nav>
-    </header>
     <section class="hero">
-        <img id="circles" src="/assets/hero-topleft-circles.svg" alt="Fimes circles"></div>
-        <img id="circles-bottom" src="/assets/hero-bottomright-circles.svg" alt="Fimes circles"></div>
-        <div class="top">
-            <div class="left">
-                <div class="hello-text">
-                    Hei, me olemme <img src="/assets/fimes-logo.svg" alt="Hei, me olemme Fimes">
-                </div>
-                <h1>Läpinäkyvä<br>kumppanisi.</h1>
-                <p>Nuorekas digimarkkinointitoimisto Etelä-Karjalasta, jota pyörittää pieni tiimi palkittuja ammattilaisia. </p>
-                <a class="primary__btn">Tutustu palveluihimme</a>
-            </div>
-            <div class="right">
-                <img src="/assets/hero.svg" alt="Läpinäkyvä kumppanisi">
-            </div>
+        <header>
+            <h3>P-Media</h3>
+            <nav aria-label="Main navigation">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                </ul>
+            </nav>
+            
+        </header>
+        <div class="content">
+            <h1>The Next Generation Web Game Platform</h1>
+            <p>A Win- Win-Win for Developers, Advertisers, and Players.</p>
         </div>
-        <ul class="services">
-            <li>Verkkosivut</li>
-            <li class="circle"></li>
-            <li>Sosiaalinen media</li>
-            <li class="circle"></li>
-            <li>Webhotellit</li>
-            <li class="circle"></li>
-            <li>Ilmakuvaus</li>
-            <li class="circle"></li>
-            <li>Hakukoneoptimointi</li>
-            <li class="circle"></li>
-            <li>Verkkokaupat</li>
-        </ul>
     </section>
     
-    <section class="values">
-        <img id="circles" src="/assets/values-topleft-circles.svg" alt="Fimes circles"></div>
-        <div class="card">
-            <img src="/assets/lapinakyvasti.svg" alt="Läpinäkyvästi">
-            <h4>Läpinäkyvästi</h4>
-            <p>Olemme ylpeitä avoimuudestamme ja selkeydestämme. Asiakkaamme voivat luottaapalveluidemme vastaavan tarpeitaan.</p>
+    <section class="features">
+        <h2>Features</h2>
+        <p>Switch between our platform features by clicking feature you want to see.</p>
+        <div class="buttons" id="buttons">
+            <a class="primary__btn" href="#feature1"><div>Feature 1</div></a>
+            <a class="primary__btn" href="#feature2"><div>Feature 2</div></a>
+            <a class="primary__btn" href="#feature3"><div>Feature 3</div></a>
+            <a class="primary__btn" href="#feature4"><div>Feature 4</div></a>
         </div>
-        <div class="card">
-            <img src="/assets/edullisesti.svg" alt="Läpinäkyvästi">
-            <h4>Edullisesti</h4>
-            <p>Tarjoamme kilpailukykyiset hinnat laadukkaista tuotteista ja palveluista.</p>
-        </div>
-        <div class="card">
-            <img src="/assets/luotettavasti.svg" alt="Läpinäkyvästi">
-            <h4>Luotettavasti</h4>
-            <p>Olemme sitoutuneita tarjoamaan asiakkaillemme luotettavia ja kestäviä ratkaisuja.</p>
-        </div>
-    </section>
-
-    <section class="wehandle">
-        <img id="circles" src="/assets/wehandle-section-circles.svg" alt="Fimes circles"></div>
-        <div class="context">
-            <h2>Me<br>hoidamme.</h2>
-            <a href="#" class="arrow">Katso kaikki</a>
-        </div>
-        <div class="content">
-            <div class="row">
-                <div class="card">
-                    <h5>Verkkopalvelut</h5>
-                    <ul>
-                        <li>Verkkosivut</li>
-                        <li>Verkkokaupat</li>
-                        <li>Webhotellit</li>
-                        <li>Ylläpito</li>
-                        <li>Hakukoneoptimointi SEO</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h5>Brändit</h5>
-                    <ul>
-                        <li>Logot ja brändimateriaalit</li>
-                        <li>Brändimanuaalit</li>
-                        <li>Värisuunnittelu</li>
-                        <li>Brändistrategia</li>
-                        <li>Mainokset</li>
-                    </ul>
-                </div>
+        <div class="screen">
+            <div id="feature1">
+                <img class="feature__img" src="/assets/img/features/1.webp" alt="Screenshot of Feature 1: Different game versions">
             </div>
-            <div class="row">
-                <div class="card">
-                    <h5>Media</h5>
-                    <ul>
-                        <li>Sosiaalinen media</li>
-                        <li>Ilmakuvaus</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h5>Puuttuuko jotakin?</h5>
-                    <ul>
-                        <li>Ota yhteyttä, niin katsotaan mitä saammekaan aikaiseksi.</li>
-                    </ul>
-                </div>
+            <div id="feature2">
+                <img class="feature__img" src="/assets/img/features/2.webp" alt="Screenshot of Feature 2: Leaderboard for high scores">
+            </div>
+            <div id="feature3">
+                <img class="feature__img" src="/assets/img/features/3.webp" alt="Screenshot of Feature 3: User profile displaying top scrores">
+            </div>
+            <div id="feature4">
+                <img class="feature__img" src="/assets/img/features/4.webp" alt="Screenshot of Feature 4: Ranking of games">
             </div>
         </div>
+        <img class="stars" src="/assets/img/stars.webp" alt="Stars in the background">
     </section>
-    <section class="ourclients">
-        <h3>Asiakkaitamme.</h3>
-        <p>Tässä muutamia hienoja asiakkaitamme, jotka luottavat meihin. Luota sinäkin ja ota yhteyttä!</p>
-        <div class="clients">
-            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
-            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
-            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
-            <img src="/assets/clients/sampo.webp" alt="Saimaan ammattiopisto Sampo">
-        </div>
+    
+    <div class="divider"><img src="/assets/img/divider.webp" alt="Decorative divider"></div>
+    <section class="ourcompany">
+        <h3>Our Company</h3>
+        <p>
+            Once upon a time, we, P-Media, embarked on our journey as an innovative Animation Studio. We crafted captivating visuals that breathed life into enthralling narratives, earning the affection of countless individuals!
+        </p>
+        <p>
+            However, as the tides of change swept through, we evolved in tandem. Presently, we stand even more extraordinary than before! We have transformed into an Entertainment Powerhouse, dedicated to infusing delight into the lives of all. Our tool of choice? The realm of HTML5 Games – a collection of exceptionally engaging games seamlessly accessible via the internet.
+        </p>
+        <p>
+            Our narrative illustrates an unwavering commitment to constant enhancement. Our expedition from animating images to conjuring amusement-filled games underscores our role as the nexus of imagination and technology. With open arms, we invite you to partake in the merriment and anticipate the boundless horizons our creativity will unfold!
+        </p>
     </section>
-    <section class="contact">
-        <div class="container">
-            <div class="context">
-                <h4>Aloitetaan yhteinen<br>
-                matkamme.</h4>
-                <p>Laske hinta-arvio palveluillesi, joita tarvitset ja pyydä tarjous.</p>
-                <a href="#" class="primary__btn">Hintalaskuriin</a>
-            </div>
-            <p class="divider">Tai</p>
-            <div class="contact__form">
-                <h5>Ota suoraan yhteyttä!</h5>
-                <form action="">
-                    <div class="row">
-                        <div class="col-50">
-                            <input type="text" name="name" id="name" placeholder="Nimi">
+    
+    <section class="roadmap">
+        <h3>Ecosystem roadmap 2023</h3>
+        <div class="wrapper">
+            <div class="map">
+                <div class="col">
+                    <div class="block">
+                        <div class="content">
+                            <img src="/assets/img/roadmap-large.webp" alt="Developers">
+                            <p>Developers</p>
                         </div>
-                        <div class="col-50">
-                            <input type="tel" name="phone" id="name" placeholder="Puhelinnumero">
+                        <div class="arrows">
+                            <div class="arrow__left">
+                                <p>Games</p>
+                                <img src="/assets/img/arrow-horizontal.webp" alt="Developers games to advertisement">
+                            </div>
+                            <div class="arrow__right">
+                                <p>$$ Revenue rewards</p>
+                                <img src="/assets/img/arrow-horizontal.webp" alt="Revenue rewards to developers">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col center">
+                    <div class="row top">
+                        <div class="block">
+                            <div class="content">
+                                <img src="/assets/img/roadmap-small.webp" alt="Game platform">
+                                <p>Game platform</p>
+                            </div>
+                            <div class="arrows">
+                                <div class="arrow__left">
+                                    <p>$$ Revenue</p>
+                                    <img src="/assets/img/arrow-vertical.webp" alt="Revenue to advertisement">
+                                </div>
+                                <div class="arrow__right">
+                                    <p>Hosting & Api</p>
+                                    <img src="/assets/img/arrow-vertical.webp" alt="Hosting and api to game platform">
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
-                        <input type="email" name="email" id="email" placeholder="Sähköposti">
+                        <div class="block">
+                            <div class="content">
+                                <img src="/assets/img/roadmap-center.webp" alt="Advertisement">
+                                <p>Advertisement</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <textarea name="message" id="message" placeholder="Viesti"></textarea>
+                    <div class="row bottom">
+                        <div class="block">
+                            <div class="content">
+                                <img src="/assets/img/roadmap-small.webp" alt="Advertiser">
+                                <p>Advertiser</p>
+                            </div>
+                            <div class="arrows">
+                                <div class="arrow__left">
+                                    <p>Promotions</p>
+                                    <img src="/assets/img/arrow-vertical.webp" alt="Promotions to advertisement">
+                                </div>
+                                <div class="arrow__right">
+                                    <p>Attention</p>
+                                    <img src="/assets/img/arrow-vertical.webp" alt="Attention to advertiser">
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        <button>Lähetä</button>
+                </div>
+                <div class="col right">
+                    <div class="block">
+                        <div class="content">
+                            <img src="/assets/img/roadmap-large.webp" alt="Players">
+                            <p>Players</p>
+                        </div>
+                        <div class="arrows">
+                            <div class="arrow__left">
+                                <p>Fun</p>
+                                <img src="/assets/img/arrow-horizontal.webp" alt="Players fun to advertisement">
+                            </div>
+                            <div class="arrow__right">
+                                <p>Rating & Game play data</p>
+                                <img src="/assets/img/arrow-horizontal.webp" alt="Advertisement to players rating & Game play data">
+                            </div>
+                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
+        
     </section>
+    <footer class="footer">
+        P-Media - Worldskills qualification pre-task © Eeli Grén 2023
+    </footer>
 </body>
 </html>
